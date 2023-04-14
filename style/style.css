@@ -119,7 +119,7 @@ table {
 	font-size: 20px;
 	line-height: 23px;
 }
-.Designers__JessWonde {
+.JESSWONDER {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -135,13 +135,73 @@ table {
 	line-height: 19px
 }
 
-
-
-.Designers_Designers {
+.Designers__Designers {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	/font-size: 20px;
 	line-height: 23px;
 	/* identical to box height */
+}
+.KAMERONCLEIN {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+.LOUISSERED {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+.Testimonials {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+}
+.Testimonials__quote {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+}
+.Creativity {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+.Website {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+.Strengths{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 86px;
+	line-height: 115px;
+/* identical to box height */
+}
+.Strengths__list {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 41px;
 }
