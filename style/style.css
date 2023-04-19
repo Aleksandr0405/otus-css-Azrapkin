@@ -2,7 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-/*
+/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-/*
+/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -47,7 +47,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-*/
+
 /* roboto-regular - latin */
 @font-face {
 	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -76,7 +76,7 @@ table {
 	src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
 		 url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
   }
-
+ /* Header start */
   .intro__title {
     font-family: 'Playfair Display';
 	font-style: normal;
@@ -92,6 +92,10 @@ table {
     font-size: 20px;
     line-height: 23px;
 }
+
+/* Header end */
+/* KatyaMills start */
+
 .KatyaMills__title {
 	font-family: 'Playfair Display';
 	font-style: normal;
@@ -120,6 +124,10 @@ table {
 	font-size: 20px;
 	line-height: 23px;
 }
+
+/* KatyaMills end */
+/* Designers start */
+
 .JESSWONDER {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -127,13 +135,6 @@ table {
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
-}
-.JessWonder {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px
 }
 
 .Designers__Designers {
@@ -160,6 +161,10 @@ table {
 	line-height: 19px;
 	text-transform: uppercase;
 }
+
+/* Designers end */
+/* Testimonials start */
+
 .Testimonials {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -191,6 +196,10 @@ table {
 	line-height: 19px;
 	text-transform: capitalize;
 }
+
+/* Testimonials end */
+/* Strongpoints start */
+
 .Strengths{
 	font-family: 'Playfair Display';
 	font-style: normal;
@@ -206,3 +215,5 @@ table {
 	font-size: 34px;
 	line-height: 41px;
 }
+
+/* Strongpoints end */
