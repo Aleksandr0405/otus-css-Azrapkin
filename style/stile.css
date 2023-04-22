@@ -87,7 +87,8 @@ html{
 
  /* Header start */
 
- .heder {
+ .header {
+	text-align: center;
 
  }
  
@@ -99,25 +100,21 @@ html{
 
 .hero {
 	background-image: url(../images/intro.jpg);
-	max-width: 800px;
+	max-width: 1065px;
+	Height: 630px;
 	margin: 0 auto;
-	height: 400px;
 	position: relative;
 }
 
 .hero-box {
 	background-color: white;
-	width: 56%;	
+	width: 56%;
+	height: 57%;	
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
 	text-align: center;
-}
-
-.img__intro{
-	width: 1065px;
-	height: 630px;
 }
 
   .intro__title {
