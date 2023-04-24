@@ -109,12 +109,14 @@ html{
 	z-index: 50;
 	left: 30%;
 	right: 20%;
-	display: none;
+	/*display: none;*/
 	
  }
 
  .header-dropdown a {
 	text-decoration: none;
+	font-family: 'Playfair Display';
+	font-style: normal;
 	color: #000000;
 	font-size: 40px;
 	line-height: 48px;
