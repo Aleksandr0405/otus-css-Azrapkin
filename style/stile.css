@@ -90,22 +90,26 @@ html{
  .header {
 	text-align: center;
 	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+
  }
 
  .header__menu {
-	ima
-
+	background-color: transparent;
+	border: none;
+	
  }
 
  .header-dropdown {
-	background-color: green;
 	text-align: left;
 	position: absolute;
 	z-index: 50;
-	left: 30%;
-	right: 30%;
+	left: 20%;
+	right: 20%;
 	display: none;
-
+	
  }
 
  .header:hover .header-dropdown {
@@ -114,7 +118,6 @@ html{
  
 .wrapper {
 	max-width: 800px;
-	outline: 1px solid red;
 	margin: 0 auto;
 	
 }
