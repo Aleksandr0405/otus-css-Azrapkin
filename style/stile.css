@@ -93,24 +93,48 @@ html{
 	padding-top: 60px;
 	padding-bottom: 60px;
 	margin: 0 auto;
-
+	max-width: 800px;
  }
 
- .header__menu {
+  .header__menu {
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-	
+
  }
 
  .header-dropdown {
-	text-align: left;
 	position: absolute;
+	background-color: transparent;
 	z-index: 50;
 	left: 20%;
 	right: 20%;
-	display: none;
+	/*display: none;*/
 	
+ }
+
+ .header-dropdown a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 40px;
+	line-height: 48px;
+ }
+
+ .header-dropdown a:hover {
+	background-color: #ccc;
+ }
+
+ .header__list {
+	display: flex;
+	flex-wrap: wrap;
+ }
+
+ .header__item {
+	margin-right: 70px;
+ }
+
+ .header__item:last-child {
+	margin-right: 0;
  }
 
  .header:hover .header-dropdown {
@@ -120,7 +144,6 @@ html{
 .wrapper {
 	max-width: 800px;
 	margin: 0 auto;
-	
 }
 
 .hero {
@@ -146,12 +169,12 @@ html{
 }
 
   .intro__title {
-
     font-family: 'Playfair Display';
 	font-style: normal;
     font-weight: 500;
     font-size: 86px;
     line-height: 120%;
+	padding-bottom: 14px;
 	
 	
     /* or 103px */
