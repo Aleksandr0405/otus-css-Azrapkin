@@ -107,9 +107,9 @@ html{
 	position: absolute;
 	background-color: transparent;
 	z-index: 50;
-	left: 20%;
+	left: 30%;
 	right: 20%;
-	/*display: none;*/
+	display: none;
 	
  }
 
