@@ -192,9 +192,19 @@ html{
 /* Header end */
 /* KatyaMills start */
 
+.KatyaMills__description {
+	padding-top: 135px;
+	display: flex;
+
+
+}
+
 .img__KatyaMills{
+	
 	width: 553px;
 	height: 840px;
+	display: block;
+	max-width: 100%;
 }
 
 .KatyaMills__title {
