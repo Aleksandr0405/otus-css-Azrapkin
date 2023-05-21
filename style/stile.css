@@ -233,9 +233,9 @@ html{
 	font-size: 86px;
 	line-height: 115px;
 	/* width: 420px; */
-	height: 150px;
-	/* justify-content: space-around; */
-	/* max-width: px; */
+	height: 250px;
+	justify-content: space-around;
+	max-width: 300px;
 }
 .KatyaMills__direction {
 	font-family: 'Roboto';
