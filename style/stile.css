@@ -195,16 +195,35 @@ html{
 .KatyaMills__description {
 	padding-top: 135px;
 	display: flex;
-
-
+	justify-content: center;
+	
 }
 
-.img__KatyaMills{
-	
+.img__KatyaMills {
 	width: 553px;
 	height: 840px;
 	display: block;
 	max-width: 100%;
+}
+
+.KatyaMills__Biography {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	width: 92px;
+	height: 23px;
+	position: relative;
+	top: 35px;
+	transform: rotate(-90deg);
+}
+
+.KatyaMills__description__text {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
 }
 
 .KatyaMills__title {
@@ -213,6 +232,10 @@ html{
 	font-weight: 500;
 	font-size: 86px;
 	line-height: 115px;
+	/* width: 420px; */
+	height: 150px;
+	/* justify-content: space-around; */
+	/* max-width: px; */
 }
 .KatyaMills__direction {
 	font-family: 'Roboto';
@@ -227,13 +250,6 @@ html{
 	font-weight: 400;
 	font-size: 26px;
 	line-height: 31px;
-}
-.KatyaMills__Biography {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 23px;
 }
 
 /* KatyaMills end */
