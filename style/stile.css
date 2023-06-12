@@ -261,24 +261,24 @@ html{
 
 .section__Designers{
 	padding-top: 150px;
-	display: flex;
+	padding-top: 150px;
 	align-items: center;
-  	justify-content: center;
-
+	position: relative;
+	display: flex;
+	justify-content: center;
 }
 
 .text__Designers {
-	display: inline-block;
+	position: relative;
+	top: -11.8em;
+	left:50em;
+	transform: translateY(-50%) rotate(-90deg);
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 23px;
-	position: relative;
-    left: 64%;
-	bottom: 13em;
-	width: 90px;
-	transform: translate(-50%, 50%) rotate(-90deg);
+	white-space: nowrap;
 }
 
 .Designers {
@@ -286,6 +286,7 @@ html{
 	align-items: end;
 	gap: 30px;
 	grid-template-columns: 636px 320px 320px;
+	justify-content: center;
 }
 
 .Designers__JESSWONDER {
@@ -337,11 +338,16 @@ html{
 
 /* Designers end */
 /* Testimonials start */
+
+/* .section__Testimonials {
+	justify-content: center;
+} */
+
 .Testimonials{
 	padding-top: 150px;
 	padding-bottom: 33px;
 	position: relative;
-    left: 5%;
+    left: 12%;
 	width: 6.5%;
 }
 .Text__Testimonials {
@@ -355,9 +361,10 @@ html{
 
 .wrapper__Testimonials {
 	display: grid;
-	column-gap: 23px;
+	column-gap: 40px;
 	grid-template-columns: 100px 515px 146px 221px;
-	outline: 1px solid red;
+	/* outline: 1px solid red; */
+	justify-content: center;
 }
 
 .link__container {
@@ -427,6 +434,8 @@ a.Website {
 
 .section__Strongpoints {
 	padding-top: 170px;
+	display: grid;
+	justify-content: center;
 }
 
 .img__Strongpoints_1 {
