@@ -150,6 +150,9 @@ html{
 
 .hero {
 	background-image: url(../images/intro.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
 	max-width: 75%;
 	Height: 630px;
 	margin: 0 auto;
@@ -177,9 +180,6 @@ html{
     font-size: 86px;
     line-height: 120%;
 	padding-bottom: 14px;
-	
-	
-    /* or 103px */
 }
 .intro__subtitle {
     font-family: 'Roboto';
@@ -199,10 +199,11 @@ html{
 }
 
 .img__KatyaMills {
-	width: 553px;
+	width: 	553px;
 	height: 840px;
 	display: block;
 	max-width: 100%;
+
 }
 
 .KatyaMills__Biography {
@@ -226,16 +227,14 @@ html{
 	flex-direction: column;
 }
 
-.KatyaMills__title {
+.title {
 	display: flex;
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 500;
 	font-size: 86px;
 	line-height: 115px;
-	/* width: 420px; */
 	height: 250px;
-	/* justify-content: space-around; */
 	max-width: 300px;
 }
 .KatyaMills__direction {
@@ -260,27 +259,47 @@ html{
 /* KatyaMills end */
 /* Designers start */
 
-.img__JESSWONDER {
-	width: 635.48px;
-	height: 538px;
+.section__Designers{
+	padding-top: 150px;
 }
 
-.JESSWONDER {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: uppercase;
-}
-
-.Designers__Designers {
+.text__Designers {
+	display: inline-block;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 23px;
-	/* identical to box height */
+	position: relative;
+    left: 72%;
+    top: 2.4em;
+	transform: translate(-50%, 50%) rotate(-90deg);
+}
+
+.Designers {
+	display: grid;
+	align-items: end;
+	gap: 30px;
+	grid-template-columns: repeat(4, 1fr);
+}
+
+.Designers__JESSWONDER {
+	grid-column-start: 1;
+}
+
+.img__JESSWONDER {
+	width: 635.48px;
+	height: 538px;
+}
+
+.text_JESSWONDER {
+	font-family: 'Roboto';
+	font-style: normal;
+	/* font-weight: 700; */
+	font-size: 16px;
+	line-height: 19px;
+	width: 50%;
+	margin-left: 50%;
 }
 
 .img__KAMERONCLEIN {
@@ -291,7 +310,7 @@ html{
 .KAMERONCLEIN {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
@@ -305,7 +324,7 @@ html{
 .LOUISSERED {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-weight: 700;
+	/* font-weight: 700; */
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
@@ -314,17 +333,18 @@ html{
 /* Designers end */
 /* Testimonials start */
 
-.img__Testimonials {
-	width: 515px;
-	height: 757px;
-}
-
 .Testimonials {
+	padding-top: 150px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 20px;
 	line-height: 23px;
+}
+
+.img__Testimonials {
+	width: 515px;
+	height: 757px;
 }
 
 .img__Testimonials__quote {
