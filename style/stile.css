@@ -335,6 +335,11 @@ html{
 
 .section__Testimonials {
 	padding-top: 150px;
+	display: grid;
+	/* align-items: end; */
+	gap: 30px;
+	grid-template-columns: repeat(6, 1fr);
+	outline: 1px solid red;
 }
 
 a.Creativity {
@@ -354,7 +359,7 @@ a.Website {
 	text-transform: capitalize;
 }
 
-.Testimonials {
+.Text__Testimonials {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -384,6 +389,10 @@ a.Website {
 
 /* Testimonials end */
 /* Strongpoints start */
+
+.section__Strongpoints {
+	padding-top: 170px;
+}
 
 .img__Strongpoints_1 {
 	width: 350px;
