@@ -332,14 +332,34 @@ html{
 
 /* Designers end */
 /* Testimonials start */
-
-.section__Testimonials {
+.Testimonials{
 	padding-top: 150px;
+	
+}
+.Text__Testimonials {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	position: relative;
+    left: 15%;
+}
+
+.wrapper__Testimonials {
 	display: grid;
 	/* align-items: end; */
 	gap: 30px;
-	grid-template-columns: repeat(6, 1fr);
+	grid-template-columns: repeat(5, 1fr);
 	outline: 1px solid red;
+}
+
+.link__Creativity{
+	/* transform: rotate(-90deg); */
+}
+
+.link__Creativity2 {
+	/* transform: rotate(-90deg); */
 }
 
 a.Creativity {
@@ -359,13 +379,7 @@ a.Website {
 	text-transform: capitalize;
 }
 
-.Text__Testimonials {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 20px;
-	line-height: 23px;
-}
+
 
 .img__Testimonials {
 	width: 515px;
