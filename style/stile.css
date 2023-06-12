@@ -338,17 +338,22 @@ html{
 
 /* Designers end */
 /* Testimonials start */
-
-/* .section__Testimonials {
+.section__Testimonials {
+	padding-top: 206px;
+	align-items: center;
+	position: relative;
+	display: flex;
 	justify-content: center;
-} */
+}
 
 .Testimonials{
 	padding-top: 150px;
 	padding-bottom: 33px;
 	position: relative;
-    left: 12%;
-	width: 6.5%;
+	top: -30.3em;
+	left: 11.6em;
+    /* left: 12%; */
+	/* width: 6.5%; */
 }
 .Text__Testimonials {
 	font-family: 'Roboto';
@@ -363,7 +368,6 @@ html{
 	display: grid;
 	column-gap: 40px;
 	grid-template-columns: 100px 515px 146px 221px;
-	/* outline: 1px solid red; */
 	justify-content: center;
 }
 
@@ -425,7 +429,6 @@ a.Creativity, a.Website, a.Creativity2 {
 	width: 221px;
 	height: 333px;
 }
-
 
 /* Testimonials end */
 /* Strongpoints start */
