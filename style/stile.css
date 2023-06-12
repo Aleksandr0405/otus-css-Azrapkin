@@ -333,8 +333,28 @@ html{
 /* Designers end */
 /* Testimonials start */
 
-.Testimonials {
+.section__Testimonials {
 	padding-top: 150px;
+}
+
+a.Creativity {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+a.Website {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+
+.Testimonials {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -360,22 +380,7 @@ html{
 	line-height: 38px;
 	text-align: center;
 }
-.Creativity {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: capitalize;
-}
-.Website {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: capitalize;
-}
+
 
 /* Testimonials end */
 /* Strongpoints start */
