@@ -369,7 +369,7 @@ html{
 
 .link__container {
 	display: grid;
-	align-content: space-evenly;
+	align-content: space-around;
 	position: relative;
 
 }
@@ -386,21 +386,19 @@ html{
 	transform: rotate(-90deg);
 }
 
-a.Creativity {
+a.Creativity, a.Website, a.Creativity2 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: capitalize;
+	text-decoration: none;
+	color: #000000;
 }
-a.Website {
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: capitalize;
+
+.link__container a:hover {
+	color: blue;
 }
 
 .img__Testimonials {
