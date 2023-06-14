@@ -192,21 +192,34 @@ html{
 /* Header end */
 /* KatyaMills start */
 
-.KatyaMills__description {
+.biography {
+	/* background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	max-width: 630px;
+	Height: 75%;
+	margin: 0 auto;
+	position: relative; */
+}
+
+.katya__mills__description {
 	padding-top: 135px;
 	display: flex;
 	justify-content: center;
 }
 
-.img__KatyaMills {
+.img__katya__mills {
 	width: 	553px;
 	height: 840px;
-	display: block;
+	position: relative;
+	/* max-width: 553px;;
+	Height: 75%; */
+	/* display: block; */
 	max-width: 100%;
 
 }
 
-.KatyaMills__Biography {
+.katya__mills__biography {
 	display: flex;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -221,7 +234,7 @@ html{
 	margin-right: 91px;
 }
 
-.KatyaMills__description__text {
+.katya__mills__description__text {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -237,7 +250,7 @@ html{
 	height: 250px;
 	max-width: 300px;
 }
-.KatyaMills__direction {
+.katya__mills__direction {
 	display: flex;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -247,7 +260,7 @@ html{
 	justify-content: space-around;
 	height: 150px;
 }
-.KatyaMills__quote {
+.katya__mills__quote {
 	display: flex;
 	font-family: 'Bitter';
 	font-style: normal;
@@ -259,16 +272,18 @@ html{
 /* KatyaMills end */
 /* Designers start */
 
-.section__Designers{
-	padding-top: 150px;
+.section__designers{
+	width: 100%;
+ 	max-width: 1200px;
+  	margin: 0 auto;
 	padding-top: 150px;
 	align-items: center;
-	position: relative;
 	display: flex;
 	justify-content: center;
+
 }
 
-.text__Designers {
+.text__designers {
 	position: relative;
 	top: -11.8em;
 	left:50em;
@@ -281,7 +296,7 @@ html{
 	white-space: nowrap;
 }
 
-.Designers {
+.designers {
 	display: grid;
 	align-items: end;
 	gap: 30px;
@@ -289,48 +304,45 @@ html{
 	justify-content: center;
 }
 
-.Designers__JESSWONDER {
+.designers__jesswonder {
 	grid-column-start: 1;
 }
 
-.img__JESSWONDER {
+.img__jesswonder {
 	width: 635.48px;
 	height: 538px;
 }
 
-.text_JESSWONDER {
+.text__jesswonder {
 	font-family: 'Roboto';
 	font-style: normal;
-	/* font-weight: 700; */
 	font-size: 16px;
 	line-height: 19px;
 	width: 50%;
 	margin-left: 50%;
 }
 
-.img__KAMERONCLEIN {
+.img__kameronclein {
 	width: 319.02px;
 	height: 439.46px;
 }
 
-.KAMERONCLEIN {
+.kameronclein {
 	font-family: 'Roboto';
 	font-style: normal;
-	/* font-weight: 700; */
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
 }
 
-.img__LOUISSERED {
+.img__louissered {
 	width: 320px;
 	height: 439.46px;
 }
 
-.LOUISSERED {
+.louissered {
 	font-family: 'Roboto';
 	font-style: normal;
-	/* font-weight: 700; */
 	font-size: 16px;
 	line-height: 19px;
 	text-transform: uppercase;
@@ -338,24 +350,26 @@ html{
 
 /* Designers end */
 /* Testimonials start */
-.section__Testimonials {
+
+.testimonials{
 	padding-top: 206px;
+	display: flex;
 	align-items: center;
 	position: relative;
-	display: flex;
+	justify-content: center;
+	left: -26.6em;
+}
+
+.section__testimonials {
 	justify-content: center;
 }
 
-.Testimonials{
+.testimonials{
 	padding-top: 150px;
 	padding-bottom: 33px;
 	position: relative;
-	top: -30.3em;
-	left: 11.6em;
-    /* left: 12%; */
-	/* width: 6.5%; */
 }
-.Text__Testimonials {
+.text__testimonials {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -364,7 +378,7 @@ html{
 
 }
 
-.wrapper__Testimonials {
+.wrapper__testimonials {
 	display: grid;
 	column-gap: 40px;
 	grid-template-columns: 100px 515px 146px 221px;
@@ -378,19 +392,11 @@ html{
 
 }
 
-.link__Creativity{
+.link__creativity, .link__creativity2, .link__website {
 	transform: rotate(-90deg);
 }
 
-.link__Creativity2 {
-	transform: rotate(-90deg);
-}
-
-.link__Website {
-	transform: rotate(-90deg);
-}
-
-a.Creativity, a.Website, a.Creativity2 {
+a.creativity, a.website, a.creativity2 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -405,12 +411,18 @@ a.Creativity, a.Website, a.Creativity2 {
 	color: blue;
 }
 
-.img__Testimonials {
-	width: 515px;
+.img__testimonials {
+	width: 100%;
+	max-width: 515px;
 	height: 757px;
+	/* transform: translate(5.1rem, 1rem); */
+	/* background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	object-fit: cover; */
 }
 
-.Testimonials__quote {
+.testimonials__quote {
 	font-family: 'Bitter';
 	font-style: normal;
 	font-weight: 400;
@@ -425,7 +437,7 @@ a.Creativity, a.Website, a.Creativity2 {
 	padding-bottom: 42px;
 }
 
-.img__Testimonials__quote {
+.img__testimonials__quote {
 	width: 221px;
 	height: 333px;
 }
@@ -433,28 +445,28 @@ a.Creativity, a.Website, a.Creativity2 {
 /* Testimonials end */
 /* Strongpoints start */
 
-.section__Strongpoints {
+.section__strongpoints {
 	padding-top: 170px;
 	display: grid;
 	justify-content: center;
 }
 
-.img__Strongpoints_1 {
+.img__strongpoints_1 {
 	width: 350px;
 	height: 525px;
 }
 
-.img__Strongpoints_2 {
+.img__strongpoints_2 {
 	width: 351px;
 	height: 525px;
 }
 
-.img__Strongpoints_3 {
+.img__strongpoints_3 {
 	width: 351px;
 	height: 525px;
 }
 
-.Strengths{
+.sstrengths{
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 500;
@@ -462,7 +474,7 @@ a.Creativity, a.Website, a.Creativity2 {
 	line-height: 115px;
 /* identical to box height */
 }
-.Strengths__list {
+.strengths__list {
 	font-family: 'Bitter';
 	font-style: normal;
 	font-weight: 400;
