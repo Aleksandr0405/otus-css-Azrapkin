@@ -209,13 +209,14 @@ html{
 }
 
 .img__katya__mills {
-	width: 	553px;
-	height: 840px;
+	width: 	45%;
+	height: 75%;
+	max-width: 100%;
 	position: relative;
 	/* max-width: 553px;;
 	Height: 75%; */
 	/* display: block; */
-	max-width: 100%;
+	
 
 }
 
