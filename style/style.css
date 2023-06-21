@@ -276,34 +276,33 @@ html{
 /* Designers start */
 
 .section__designers{
-	width: 100%;
- 	max-width: 1200px;
-  	margin: 0 auto;
-	padding-top: 150px;
-	align-items: center;
-	display: flex;
-	justify-content: center;
+	margin-top: 8%;
+}
 
+.container__text__designers {
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+	height: 25px;
 }
 
 .text__designers {
 	position: relative;
-	top: -11.8em;
-	left:50em;
+    top: 3.4em;
+    left: 13em;
 	transform: translateY(-50%) rotate(-90deg);
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 20px;
-	line-height: 23px;
-	white-space: nowrap;
+	font-size: 1.3vw;
 }
 
 .designers {
 	display: grid;
 	align-items: end;
-	gap: 30px;
-	grid-template-columns: 636px 320px 320px;
+	gap: 2%;
+	grid-template-columns: 35% 16% 16%;
 	justify-content: center;
 }
 
@@ -312,43 +311,47 @@ html{
 }
 
 .img__jesswonder {
-	width: 635.48px;
-	height: 538px;
+	width: 100%;
+	height: auto;
+	max-width: 670px;
 }
 
 .text__jesswonder {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-size: 16px;
-	line-height: 19px;
+	font-size: 1vw;
+	line-height: 1.2;
 	width: 50%;
-	margin-left: 50%;
+	margin-left: 45%;
+	margin-top: 3.6%;
 }
 
 .img__kameronclein {
-	width: 319.02px;
-	height: 439.46px;
+	width: 100%;
+	height: auto;
+	max-width: 320px;
 }
 
 .kameronclein {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: uppercase;
+	font-size: 1vw;
+	line-height: 1.2;
+	margin-top: 7%;
 }
 
 .img__louissered {
-	width: 320px;
-	height: 439.46px;
+	width: 100%;
+	height: auto;
+	max-width: 320px;
 }
 
 .louissered {
 	font-family: 'Roboto';
 	font-style: normal;
-	font-size: 16px;
-	line-height: 19px;
-	text-transform: uppercase;
+	font-size: 1vw;
+	line-height: 1.2;
+	margin-top: 7%;
 }
 
 /* Designers end */
@@ -379,8 +382,6 @@ html{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	/* font-size: 20px;
-	line-height: 23px; */
 	font-size: 2vw;
 	line-height: 1.2;
 	position: absolute;
@@ -391,8 +392,6 @@ html{
 .wrapper__testimonials {
 	display: grid;
 	column-gap: 20px;
-	/* grid-template-columns: 100px 515px 146px 221px; */
-	justify-content: center;
 	align-items: center;
 	/* добавил align-items: center; - ссылки перестали быть на месте */
 	grid-template-columns: 3% 37% 9% 17%;
@@ -465,7 +464,7 @@ a.creativity, a.website, a.creativity2 {
 	/* width: 221px; */
 	/* height: 333px; */
 	width: 	100%;
-	height: auto%;
+	height: auto;
 	/* max-width: 100%; */
 	position: relative;
 }
