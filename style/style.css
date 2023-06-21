@@ -472,28 +472,28 @@ a.creativity, a.website, a.creativity2 {
 /* Testimonials end */
 /* Strongpoints start */
 
-.section__strongpoints {
+.strongpoints__heading__section {
 	padding-top: 170px;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	/* font-size: 2vw; */
+	/* line-height: 1.2; */
+	/* position: absolute; */
+	/* left: 13%; */
+}
+
+.strongpoints__grid {
 	display: grid;
 	justify-content: center;
 }
 
-.img__strongpoints_1 {
+.img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 	width: 350px;
 	height: 525px;
 }
 
-.img__strongpoints_2 {
-	width: 351px;
-	height: 525px;
-}
-
-.img__strongpoints_3 {
-	width: 351px;
-	height: 525px;
-}
-
-.strengths{
+.strengths {
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 500;
@@ -501,6 +501,7 @@ a.creativity, a.website, a.creativity2 {
 	line-height: 115px;
 /* identical to box height */
 }
+
 .strengths__list {
 	font-family: 'Bitter';
 	font-style: normal;
