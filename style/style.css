@@ -386,7 +386,6 @@ html{
 	line-height: 1.2;
 	position: absolute;
 	left: 13%;
-
 }
 
 .wrapper__testimonials {
@@ -410,11 +409,6 @@ html{
 	transform: rotate(-90deg);
 }
 
-.link__creativity, .link__creativity2, .link__website {
-	/* transform: rotate(-90deg); */
-
-}
-
 a.creativity, a.website, a.creativity2 {
 	font-family: 'Roboto';
 	font-style: normal;
@@ -435,14 +429,7 @@ a.creativity, a.website, a.creativity2 {
 
 .img__testimonials {
 	width: 100%;
-	/* max-width: 515px; */
-	/* height: 757px; */
 	height: auto;
-	/* transform: translate(5.1rem, 1rem); */
-	/* background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	object-fit: cover; */
 }
 
 .testimonials__quote {
@@ -470,27 +457,66 @@ a.creativity, a.website, a.creativity2 {
 }
 
 /* Testimonials end */
+
 /* Strongpoints start */
 
 .strongpoints__heading__section {
+	/* left: 13%; */
+	/* top:	 60%; */
+	transform: rotate(-90deg);
+	display: flex;
+	align-items: center;
+	position: relative;
+	justify-content: center;
+	top: 5.9em;
+    left: -28.3em;
+	/* height: 25px; */
+}
+
+/* 
+	
+	position: relative;
+    top: 3.4em;
+    left: 13em;
+	transform: translateY(-50%) rotate(-90deg);
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 1.3vw;*/
+
+.strengths__title {
 	padding-top: 170px;
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	/* font-size: 2vw; */
-	/* line-height: 1.2; */
+	font-size: 1.5vw;
+	line-height: 23px;
+
 	/* position: absolute; */
-	/* left: 13%; */
+
 }
 
 .strongpoints__grid {
 	display: grid;
 	justify-content: center;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	justify-items: center;
+	grid-auto-flow: row;
+	gap: 30px;
+	align-items: end;
 }
 
 .img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 	width: 350px;
 	height: 525px;
+	/* width: 	100%; */
+	/* height: auto; */
+	/* max-width: 350px; */
+	/* overflow: auto; */
+}
+
+.strengths__list {
+
 }
 
 .strengths {
@@ -502,12 +528,34 @@ a.creativity, a.website, a.creativity2 {
 /* identical to box height */
 }
 
-.strengths__list {
+.tex__boxes {
 	font-family: 'Bitter';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 34px;
 	line-height: 41px;
+	line-height: 40px;
+	width: 50%;
+	margin-left: 35%;
+	margin-top: 3.6%;
+	margin-bottom: 8%;
+}
+
+.img__1 {
+	/* grid-column-start: 1; */
+}
+
+.img__2 {
+	/* grid-column-start: 2; */
+}
+
+.img__3 {
+	/* grid-column-start: 4; */
+}
+
+.strengths__list {
+	/* grid-column-start: 3; */
+	/* grid-column-end: 1; */
 }
 
 /* Strongpoints end */
