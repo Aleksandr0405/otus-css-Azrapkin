@@ -468,8 +468,8 @@ a.creativity, a.website, a.creativity2 {
 	align-items: center;
 	position: relative;
 	justify-content: center;
-	top: 5.9em;
-    left: -28.3em;
+	top: 7.5em;
+    left: -28.2em;
 	/* height: 25px; */
 }
 
@@ -490,10 +490,6 @@ a.creativity, a.website, a.creativity2 {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 1.5vw;
-	line-height: 23px;
-
-	/* position: absolute; */
-
 }
 
 .strongpoints__grid {
@@ -516,7 +512,7 @@ a.creativity, a.website, a.creativity2 {
 }
 
 .strengths__list {
-
+	/* line-height: 100%; */
 }
 
 .strengths {
