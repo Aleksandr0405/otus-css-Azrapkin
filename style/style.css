@@ -289,8 +289,8 @@ html{
 
 .text__designers {
 	position: relative;
-    top: 3.4em;
-    left: 13em;
+    top: 4.6em;
+    left: 13.3em;
 	transform: translateY(-50%) rotate(-90deg);
 	font-family: 'Roboto';
 	font-style: normal;
@@ -404,7 +404,7 @@ html{
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-auto-flow: row;
 	row-gap: 15px;
-	column-gap: 60px;
+	column-gap: 30px;
 	justify-content: center;
 	transform: rotate(-90deg);
 }
@@ -473,17 +473,6 @@ a.creativity, a.website, a.creativity2 {
 	/* height: 25px; */
 }
 
-/* 
-	
-	position: relative;
-    top: 3.4em;
-    left: 13em;
-	transform: translateY(-50%) rotate(-90deg);
-	font-family: 'Roboto';
-	font-style: normal;
-	font-weight: 700;
-	font-size: 1.3vw;*/
-
 .strengths__title {
 	padding-top: 170px;
 	font-family: 'Roboto';
@@ -500,6 +489,8 @@ a.creativity, a.website, a.creativity2 {
 	grid-auto-flow: row;
 	gap: 30px;
 	align-items: end;
+	/* align-self: start; */
+	overflow-x: auto;
 }
 
 .img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
@@ -508,11 +499,6 @@ a.creativity, a.website, a.creativity2 {
 	/* width: 	100%; */
 	/* height: auto; */
 	/* max-width: 350px; */
-	/* overflow: auto; */
-}
-
-.strengths__list {
-	/* line-height: 100%; */
 }
 
 .strengths {
@@ -521,6 +507,7 @@ a.creativity, a.website, a.creativity2 {
 	font-weight: 500;
 	font-size: 86px;
 	line-height: 115px;
+	/* margin: 10%; */
 /* identical to box height */
 }
 
@@ -535,23 +522,6 @@ a.creativity, a.website, a.creativity2 {
 	margin-left: 25%;
 	margin-top: 3.6%;
 	margin-bottom: 8%;
-}
-
-.img__1 {
-	/* grid-column-start: 1; */
-}
-
-.img__2 {
-	/* grid-column-start: 2; */
-}
-
-.img__3 {
-	/* grid-column-start: 4; */
-}
-
-.strengths__list {
-	/* grid-column-start: 3; */
-	/* grid-column-end: 1; */
 }
 
 /* Strongpoints end */
