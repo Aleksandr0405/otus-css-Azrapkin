@@ -271,8 +271,15 @@ html{
 	color: #0D0D0D;
 }
 
-/* KatyaMills__biography end */
-/* Designers start */
+.katya__mills__quote::before {
+	content:"-";
+	position: relative;
+	left: 9px;
+	width: 10px;
+	height: 25px;
+	bottom: 38px;
+	font-size: 50px;
+}
 
 .section__designers{
 	margin-top: 8%;
@@ -497,11 +504,16 @@ a.creativity, a.website, a.creativity2 {
 	/* min-height: 70vh; */
 	/* align-self: start; */
 	overflow-x: auto;
+
 }
 
 .img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 	width: 350px;
 	height: 525px;
+	position: relative;
+	/* width: 100%;
+	height: auto; */
+	/* max-width: 100%; */
 }
 
 .strengths {
@@ -530,4 +542,3 @@ a.creativity, a.website, a.creativity2 {
 }
 
 /* Strongpoints end */
-
