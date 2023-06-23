@@ -190,17 +190,7 @@ html{
 }
 
 /* Header end */
-/* KatyaMills start */
-
-.biography {
-	/* background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center;
-	max-width: 630px;
-	Height: 75%;
-	margin: 0 auto;
-	position: relative; */
-}
+/* KatyaMills__biography start */
 
 .katya__mills__description {
 	padding-top: 135px;
@@ -272,7 +262,7 @@ html{
 	line-height: 31px;
 }
 
-/* KatyaMills end */
+/* KatyaMills__biography end */
 /* Designers start */
 
 .section__designers{
