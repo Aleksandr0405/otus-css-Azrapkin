@@ -461,14 +461,13 @@ a.creativity, a.website, a.creativity2 {
 /* Strongpoints start */
 
 .strongpoints__heading__section {
-	/* left: 13%; */
-	/* top:	 60%; */
-	transform: rotate(-90deg);
+
 	display: flex;
 	align-items: center;
 	position: relative;
 	justify-content: center;
-	top: 7.5em;
+	transform: rotate(-90deg);
+	top: 8.9em;
     left: -28.2em;
 	/* height: 25px; */
 }
@@ -489,6 +488,8 @@ a.creativity, a.website, a.creativity2 {
 	grid-auto-flow: row;
 	gap: 30px;
 	align-items: end;
+	/* max-width: ; */
+	/* min-height: 70vh; */
 	/* align-self: start; */
 	overflow-x: auto;
 }
@@ -496,9 +497,6 @@ a.creativity, a.website, a.creativity2 {
 .img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 	width: 350px;
 	height: 525px;
-	/* width: 	100%; */
-	/* height: auto; */
-	/* max-width: 350px; */
 }
 
 .strengths {
@@ -507,7 +505,7 @@ a.creativity, a.website, a.creativity2 {
 	font-weight: 500;
 	font-size: 86px;
 	line-height: 115px;
-	/* margin: 10%; */
+	margin: 0px 0 35px;
 /* identical to box height */
 }
 
