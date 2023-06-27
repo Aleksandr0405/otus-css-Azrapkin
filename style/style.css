@@ -423,9 +423,7 @@ a.creativity, a.website, a.creativity2 {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	/* font-size: 16px; */
 	font-size: 1.3vw;
-	/* line-height: 19px; */
 	line-height: 1.2;
 	text-transform: capitalize;
 	text-decoration: none;
@@ -459,15 +457,13 @@ a.creativity, a.website, a.creativity2 {
 }
 
 .img__testimonials__quote {
-	/* width: 221px; */
-	/* height: 333px; */
 	width: 	100%;
 	height: auto;
-	/* max-width: 100%; */
 	position: relative;
 }
 
 /* Testimonials end */
+
 /* Strongpoints start */
 
 .strongpoints__heading__section {
@@ -478,7 +474,6 @@ a.creativity, a.website, a.creativity2 {
 	transform: rotate(-90deg);
 	top: 8.9em;
     left: -28.2em;
-	/* height: 25px; */
 }
 
 .strengths__title {
@@ -490,28 +485,47 @@ a.creativity, a.website, a.creativity2 {
 	color:#000000;
 }
 
-.strongpoints__grid {
-	display: grid;
-	justify-content: center;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
-	justify-items: center;
-	grid-auto-flow: row;
-	gap: 30px;
-	align-items: end;
-	/* max-width: ; */
-	/* min-height: 70vh; */
-	/* align-self: start; */
-	overflow-x: auto;
-
-}
-
 .img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 	width: 350px;
 	height: 525px;
 	position: relative;
-	/* width: 100%;
-	height: auto; */
-	/* max-width: 100%; */
+	margin-right: 30px;
+}
+
+/* ------------------- fallbacks ----------- */
+
+@supports (display: grid) {
+	.strongpoints__grid	{
+		display: grid;
+		justify-content: center;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		justify-items: center;
+		grid-auto-flow: row;
+		gap: 30px;
+		align-items: end;
+		overflow-x: auto;
+		margin: 0;
+	}
+	.img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
+	margin: 0;
+	}
+}
+
+/* ------------------- fallbacks ----------- */
+
+.strongpoints__flex {
+	overflow-x: auto;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: flex-end;	
+}
+
+.img__strongpoints_3 {
+	margin-right: 0;
+}
+.strengths__list {
+	margin-right: 30px;
 }
 
 .strengths {
@@ -614,37 +628,36 @@ a.creativity, a.website, a.creativity2 {
 	}
 	
 	.hero-box {
-		/* width: 56%; */
-		/* height: 57%;	 */
 		position: relative;
-		top: -60%;
+		top: -54%;
 		left: 50%;
 		transform: translate(-50%, -50%);
 		text-align: center;
-		/* padding-top: 110px; */
 		background: none;
 		max-width: 150%;
-		/* bottom: 30px; */
+
 	}
 	
 	  .intro__title {
-		font-family: 'Playfair Display';
-		font-style: normal;
-		font-weight: 500;
-		font-size: 60px;
+
+		/* font-weight: 500; */
+		font-size: 70px;
 		line-height: 120%;
 		padding-bottom: 14px;
 		color:#000000;
 		width: 390px;
+		margin-left: -19%;
 	}
 	
 	.intro__subtitle {
 		font-family: 'Roboto';
 		font-style: normal;
 		font-weight: 500;
-		font-size: 20px;
+		font-size: 18px;
 		line-height: 23px;
 		color:#000000;
+		height: 34px;
+		margin-left: 7%;
 	}
 
 	.header__list {
