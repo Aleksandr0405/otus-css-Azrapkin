@@ -716,11 +716,11 @@ a.creativity, a.website, a.creativity2 {
 	.footer__menu {
 		pointer-events: none;
 		opacity: 0.5;
-	  }
+	}
 	  
 	  .footer-dropdown {
 		display: contents !important;
-	  }
+	}
 	  .footer-dropdown a {
 		text-decoration: none;
 		font-family: 'Playfair Display';
@@ -728,11 +728,11 @@ a.creativity, a.website, a.creativity2 {
 		color: #000000;
 		font-size: 40px;
 		line-height: 48px;
-	  }
+	}
 	  
 	  .footer-dropdown a:hover {
 		background-color: transparent !important;
-	  }
+	}
 
 	  /* <!-- KatyaMills__biography start --> */
 
@@ -807,7 +807,7 @@ a.creativity, a.website, a.creativity2 {
     .list__element::before {
         content: "-"
     }
-	
+
 	.katya__mills__quote {
 		justify-content: flex-start;
 		position: relative;
@@ -871,9 +871,6 @@ a.creativity, a.website, a.creativity2 {
 	.img__louissered {
 		width: 100%;
 		height: 350px;
-		/* width: 320px;
-		height: auto;
-		max-width: 320px; */
 	}
 	.text__louissered {
 		font-size: 4vw;
@@ -885,4 +882,59 @@ a.creativity, a.website, a.creativity2 {
 
 	/* <!-- Testimonials start --> */
 
+	.testimonials{
+		/* display: contents; */
+		/* display: block; */
+		padding-top: 80px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		justify-content: center;
+		width: 130px;
+		left: 64%;
+	}
+	
+	.section__testimonials {
+		justify-content: center;
+	}
+	
+	.testimonials{
+		position: relative;
+	}
+	
+	.text__testimonials {
+		font-size: 5vw;
+		line-height: 1.2;
+		position: absolute;
+		left: 13%;
+		color:#000000;
+	}
+
+	
+	.wrapper__testimonials {
+	}
+	.link__container {
+	}
+	.link__creativity {
+	}
+	.creativity {
+	}
+	.link__creativity2 {
+	}
+	.creativity2 {
+	}
+	.link__website {
+	}
+	.website {
+	}
+	.img {
+	}
+	.img__testimonials {
+	}
+	.testimonials__quote {
+	}
+	.text__quote {
+	}
+	.img__testimonials__quote {
+	}
 }
