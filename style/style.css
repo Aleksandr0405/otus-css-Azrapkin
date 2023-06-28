@@ -816,7 +816,7 @@ a.creativity, a.website, a.creativity2 {
 		line-height: 28px;
 		left: 15px;
 		top: -600px;
-		width: 350px;
+		width: 18.6em;
 
 	}
 	.katya__mills__quote::before {
@@ -882,9 +882,7 @@ a.creativity, a.website, a.creativity2 {
 
 	/* <!-- Testimonials start --> */
 
-	.testimonials{
-		/* display: contents; */
-		/* display: block; */
+	.testimonials {
 		padding-top: 80px;
 		display: flex;
 		align-items: center;
@@ -907,13 +905,35 @@ a.creativity, a.website, a.creativity2 {
 		line-height: 1.2;
 		position: absolute;
 		left: 13%;
-		color:#000000;
 	}
 
 	
 	.wrapper__testimonials {
+		/* display: grid; */
+		column-gap: 0;
+		/* align-items: center; */
+		/* добавил align-items: center; - ссылки перестали быть на месте */
+		grid-template-columns: 1fr ;
+		/* gap: 3%; */
+		/* justify-content: center; */
+		/* order: 1 ; */
+		/* grid-column: 1; */
+  		/* grid-row: 3; */
+		
 	}
 	.link__container {
+		position: relative;
+		display: grid;
+		grid-auto-flow: column;
+		grid-template-columns: 1fr 1fr;
+		grid-auto-flow: row;
+		/* row-gap: 15px; */
+		column-gap: 30px;
+		justify-content: center;
+		transform: rotate(0deg);
+		/* left: 150px; */
+		top: -5px;
+
 	}
 	.link__creativity {
 	}
@@ -927,14 +947,35 @@ a.creativity, a.website, a.creativity2 {
 	}
 	.website {
 	}
-	.img {
+	.testimonials__quote {
+		order: 1;
+		grid-column: 1;
+  		grid-row: 1;
+
 	}
 	.img__testimonials {
+		display: none;
 	}
 	.testimonials__quote {
+		
+		grid-column: 1 / 2;
+		font-size: 6vw;
+		/* padding-top: 2%; */
 	}
 	.text__quote {
+		padding-top: 28px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		justify-content: center;
+		/* text-align: center; */
+		/* width: 342px; */
+		/* height: 178px; */
+		margin: 0;
+		
 	}
 	.img__testimonials__quote {
+		width: 350px;
+		height: 330px;
 	}
 }
