@@ -965,7 +965,7 @@ a.creativity, a.website, a.creativity2 {
 	}
 
     /* <!-- Testimonials end --> */
-	
+
 	/* <!-- Strongpoints start --> */
 
 	.section__strongpoints {
@@ -973,29 +973,58 @@ a.creativity, a.website, a.creativity2 {
 	.conteiner__management {
 	}
 	.strongpoints__heading__section {
+		display: flex;
+    	align-items: center;
+    	position: relative;
+    	justify-content: center;
+    	transform: rotate(0deg);
+    	top: -4.6em;
+    	left: 7.9em;
 	}
 	.strengths__title {
+		font-size: 4.5vw;
 	}
 	.strongpoints__grid {
+		display: flex;
+    	overflow-x: auto;
+		margin-top: -90px;
 	}
 	.strongpoints__flex {
 	}
 	.img__1 {
+		order: 2;
+	}
+	.strengths__list {
+		order: 1;
+	}
+	.img__3 {
+		order: 3;
 	}
 	.img__strongpoints_1 {
 	}
+	.img__strongpoints_3 {
+	}
 	.strongpoints__img {
 	}
+
 	.img__strongpoints_2 {
+		display: none;
 	}
 	.strengths__list {
 	}
 	.strengths {
+		font-size: 10vw;
+		line-height: 115px;
+		margin: 0px 0 35px;
 	}
 	.tex__boxes {
+    	font-size: 24px;;
+    	line-height: 40px;
+    	width: 70%;
+    	margin-left: 0;
+    	margin-top: 0%;
+    	margin-bottom: 30px;
 	}
-	.img__3 {
-	}
-	.img__strongpoints_3 {
-	}
+	
+	
 }
