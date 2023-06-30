@@ -115,6 +115,7 @@ html{
 
  .header-dropdown a {
 	text-decoration: none;
+	position: relative;
 	font-family: 'Playfair Display';
 	font-style: normal;
 	color: #000000;
@@ -142,11 +143,15 @@ html{
  .header:hover .header-dropdown {
 	display: block;
  }
+
+ .header__item {
+	/* text-decoration-color:#000; */
+ }
+
  
-.wrapper {
-	max-width: 800px;
-	margin: 0 auto;
-}
+/* <!-- Header end --> */
+
+/* <!-- Hero start --> */
 
 .hero {
 	background-image: url(../images/intro.jpg);
@@ -196,7 +201,8 @@ html{
 	color:#000000;
 }
 
-/* Header end */
+/* <!-- Hero end --> */
+
 /* KatyaMills__biography start */
 
 .katya__mills__description {
