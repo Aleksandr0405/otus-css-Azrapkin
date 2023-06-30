@@ -528,6 +528,7 @@ a.creativity, a.website, a.creativity2 {
 		align-items: end;
 		overflow-x: auto;
 		margin: 0 auto;
+		justify-content: space-between;
 	}
 		.img__strongpoints_1, .img__strongpoints_2, .img__strongpoints_3 {
 		margin: 0 auto;
@@ -543,22 +544,11 @@ a.creativity, a.website, a.creativity2 {
 	justify-content: center;
 	align-items: flex-end;	
 	gap: 30px;
-}
-
-.img__strongpoints_1{
-	/* width: 350px; */
-}
-
-.strongpoints__img{
-	/* width: 350px;	 */
+	justify-content: space-between;
 }
 
 .img__strongpoints_3 {
 	margin-right: 0;
-	/* width: 350px; */
-}
-.strengths__list {
-	/* margin-right: 30px; */
 }
 
 .strengths {
@@ -569,7 +559,6 @@ a.creativity, a.website, a.creativity2 {
 	line-height: 115px;
 	margin: 0px 0 35px;
 	color:#000000;
-/* identical to box height */
 }
 
 .tex__boxes {
@@ -583,10 +572,6 @@ a.creativity, a.website, a.creativity2 {
 	margin-left: 25%;
 	margin-top: 3.6%;
 	margin-bottom: 8%;
-	/* width: 150px; */
-    /* margin-left: 120px; */
-    /* margin-top: 41px; */
-    /* margin-bottom: 31px; */
 	color:#000000;
 }
 
@@ -1009,7 +994,7 @@ a.creativity, a.website, a.creativity2 {
     	overflow-x: auto;
 		margin-top: -40px;
 		gap: 20px;
-		justify-content: space-between
+		justify-content: space-between;
 	}
 	.strongpoints__flex {
 	}
@@ -1060,8 +1045,13 @@ a.creativity, a.website, a.creativity2 {
 	}
 	.footer__list {
 	}
-	.footer__item {
-		
+	.footer__item__b {
+	}
+	.footer__item__d {
+	}
+	.footer__item__t {
+	}
+	.footer__item__s {
 	}
 
 }
