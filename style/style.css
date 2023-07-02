@@ -100,7 +100,6 @@ html{
 	background-color: transparent;
 	border: none;
 	cursor: pointer;
-
  }
 
  .header-dropdown {
@@ -110,7 +109,6 @@ html{
 	left: 30%;
 	right: 20%;
 	display: none;
-	
  }
 
  .header-dropdown a {
@@ -121,6 +119,7 @@ html{
 	color: #000000;
 	font-size: 40px;
 	line-height: 48px;
+	transition: 1s;
  }
 
  .header-dropdown a:hover {
@@ -143,11 +142,6 @@ html{
  .header:hover .header-dropdown {
 	display: block;
  }
-
- .header__item {
-	/* text-decoration-color:#000; */
- }
-
  
 /* <!-- Header end --> */
 
@@ -240,14 +234,14 @@ html{
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 1.36vw; /* 20px */
-	line-height: 1/2; /* 23px */
+	font-size: 1.36vw;
+	line-height: 1/2;
 	width: 6%;
 	height: 23px;
 	position: relative;
 	top: 35px;
 	transform: rotate(-90deg);
-	margin-right: 4%; /* 91px */
+	margin-right: 4%;
 	color:#000000;
 }
 
@@ -255,8 +249,6 @@ html{
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-	/* width: 	45%; */
-	/* height: 45%; */
 	max-width: 100%;
 	position: relative;
 }
@@ -266,7 +258,7 @@ html{
 	font-family: 'Playfair Display';
 	font-style: normal;
 	font-weight: 500;
-	font-size: 5rem; /* 86px */
+	font-size: 5rem;
 	line-height: 115px;
 	height: 250px;
 	max-width: 300px;
@@ -691,54 +683,20 @@ a.creativity, a.website, a.creativity2 {
 	.header__menu {
 		pointer-events: none;
 		opacity: 0.5;
-	  }
-	  
-	  .header-dropdown {
-		display: contents !important;
-	  }
-	  
-	  .header-dropdown a:hover {
-		background-color: transparent !important;
-	  }
+	}
 	
+	.header-dropdown {
+		display: contents !important;
+	}
+	
+	.header-dropdown a:hover {
+		background-color: transparent !important;
+	}	
 	  .header {
 		display: none;
 	}
 	
-		.footer {
-		display: contents;
-	}
-
-	.footer__list {
-		display: flex;
-		justify-content: space-around
-	}
-	.footer__menu img {
-		display: none;
-	}
-
-	.footer__menu {
-		pointer-events: none;
-		opacity: 0.5;
-	}
-	  
-	  .footer-dropdown {
-		display: contents !important;
-	}
-	  .footer-dropdown a {
-		text-decoration: none;
-		font-family: 'Playfair Display';
-		font-style: normal;
-		color: #000000;
-		font-size: 40px;
-		line-height: 48px;
-	}
-	  
-	  .footer-dropdown a:hover {
-		background-color: transparent !important;
-	}
-
-	  /* <!-- KatyaMills__biography start --> */
+	/* <!-- KatyaMills__biography start --> */
 
 	  .biography {
 	}
@@ -747,13 +705,10 @@ a.creativity, a.website, a.creativity2 {
 	}
 	.img__katya__mills {
 		position: relative;
-		/* left: 9%; */
 		max-width: 767px;
 		width: 100%;
 		height: 400px;
-		/* margin-top: 345px; */
 		top: 500px;
-
 	}
 	.katya__mills__subtitle {
 		position: relative;
@@ -1007,13 +962,6 @@ a.creativity, a.website, a.creativity2 {
 	.img__3 {
 		order: 3;
 	}
-	.img__strongpoints_1 {
-	}
-	.img__strongpoints_3 {
-	}
-	.strongpoints__img {
-	}
-
 	.img__strongpoints_2 {
 		display: none;
 	}
@@ -1038,12 +986,15 @@ a.creativity, a.website, a.creativity2 {
 	
 	/* <!-- Strongpoints end --> */
 
+	/* animation start */
 
 	.footer {
 	}
 	.footer-dropdown {
 	}
 	.footer__list {
+		display: flex;
+		justify-content: space-around;
 	}
 	.footer__item__b {
 	}
@@ -1051,7 +1002,49 @@ a.creativity, a.website, a.creativity2 {
 	}
 	.footer__item__t {
 	}
-	.footer__item__s {
+	
+	a {
+		text-decoration: none;
+		position: relative;
 	}
 
+
+	.footer__item__s a::before {
+		content: "";
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		width: 0;
+		width: 0;
+		height: 2px;
+		background-color: #000;
+		transition: 1s;
+	}
+	.footer-dropdown a:hover:before {
+		width: 100%;
+	}
+
+	.footer {
+		display: contents;
+	}
+
+	  .footer-dropdown {
+		display: contents !important;
+	}
+
+	  .footer-dropdown a {
+		text-decoration: none;
+		font-family: 'Playfair Display';
+		font-style: normal;
+		color: #000000;
+		font-size: 40px;
+		line-height: 48px;
+	}
+	  
+	  /* .footer-dropdown a:hover {
+		background-color: transparent !important;
+	} */
+
+
+	/* animation end */
 }
