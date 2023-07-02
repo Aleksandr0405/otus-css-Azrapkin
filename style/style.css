@@ -119,11 +119,19 @@ html{
 	color: #000000;
 	font-size: 40px;
 	line-height: 48px;
-	transition: 1s;
+	transition: all 0.3s linear; 
+
  }
+
 
  .header-dropdown a:hover {
 	background-color: #ccc;
+	padding-top: -9px;
+	padding-bottom: 3px;
+	padding-left: 7px;
+	padding-right: 7px;
+	font-size: 50px;
+	border-radius: 10px;
  }
 
  .header__list {
@@ -336,6 +344,11 @@ html{
 	width: 100%;
 	height: auto;
 	max-width: 670px;
+	transition: all 0.3s linear;
+	cursor: pointer;
+}
+.img__jesswonder:hover, .img__kameronclein:hover, .img__louissered:hover {
+	transform: scale(1.1);
 }
 
 .text__jesswonder {
@@ -353,6 +366,8 @@ html{
 	width: 100%;
 	height: auto;
 	max-width: 320px;
+	transition: all 0.3s linear;
+	cursor: pointer;
 }
 
 .text__kameronclein {
@@ -368,6 +383,8 @@ html{
 	width: 100%;
 	height: auto;
 	max-width: 320px;
+	transition: all 0.3s linear;
+	cursor: pointer;
 }
 
 .text__louissered {
@@ -731,7 +748,6 @@ a.creativity, a.website, a.creativity2 {
 		line-height: 115px;
 		top: -70px;
 		left: 16px;
-		/* white-space: nowrap; */
 	}
 
 	.title__Katya__mills::before {
@@ -775,7 +791,7 @@ a.creativity, a.website, a.creativity2 {
 		line-height: 28px;
 		left: 15px;
 		top: -600px;
-		width: 18.6em;
+		width: 17.9em;
 
 	}
 	.katya__mills__quote::before {
@@ -915,10 +931,10 @@ a.creativity, a.website, a.creativity2 {
 		position: relative;
 		justify-content: center;
 		margin: 0;
-		
+		width: 100%;
 	}
 	.img__testimonials__quote {
-		width: 377px;
+		width: 100%;
     	height: 345px;
 	}
 
@@ -995,6 +1011,7 @@ a.creativity, a.website, a.creativity2 {
 	.footer__list {
 		display: flex;
 		justify-content: space-around;
+		width: 22.7em;
 	}
 	.footer__item__b {
 	}
@@ -1008,9 +1025,15 @@ a.creativity, a.website, a.creativity2 {
 		position: relative;
 	}
 
+	.footer__list a:hover, .footer__list:focus {
+		text-shadow: 0 0 5px red;
+		outline: none;
+		position: relative;
+	}
+
 
 	.footer__item__s a::before {
-		content: "";
+		/* content: "";
 		bottom: 0;
 		left: 0;
 		position: absolute;
@@ -1018,7 +1041,7 @@ a.creativity, a.website, a.creativity2 {
 		width: 0;
 		height: 2px;
 		background-color: #000;
-		transition: 1s;
+		transition: 1s; */
 	}
 	.footer-dropdown a:hover:before {
 		width: 100%;
