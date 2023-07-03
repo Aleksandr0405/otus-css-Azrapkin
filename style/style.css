@@ -298,7 +298,7 @@ html{
 	font-size: 50px;
 }
 
-.section__designers{
+.section__designers__card {
 	margin-top: 8%;
 }
 
@@ -322,7 +322,7 @@ html{
 	color:#000000;
 }
 
-.designers {
+.card {
 	display: grid;
 	align-items: end;
 	gap: 2%;
@@ -341,7 +341,7 @@ html{
 	transition: all 0.3s linear;
 	cursor: pointer;
 }
-.img__jesswonder:hover, .img__kameronclein:hover, .img__louissered:hover {
+.img__jesswonder:hover, .card__image:hover {
 	transform: scale(1.1);
 }
 
@@ -356,7 +356,7 @@ html{
 	color:#000000;
 }
 
-.img__kameronclein {
+.card__image {
 	width: 100%;
 	height: auto;
 	max-width: 320px;
@@ -371,14 +371,6 @@ html{
 	line-height: 1.2;
 	margin-top: 7%;
 	color:#000000;
-}
-
-.img__louissered {
-	width: 100%;
-	height: auto;
-	max-width: 320px;
-	transition: all 0.3s linear;
-	cursor: pointer;
 }
 
 .text__louissered {
@@ -608,7 +600,7 @@ a.creativity, a.website, a.creativity2 {
 		right: 40px;
 	}
 
-	.designers {
+	.card {
 		display: grid;
 		align-items: end;
 		gap: 2%;
@@ -709,8 +701,6 @@ a.creativity, a.website, a.creativity2 {
 	
 	/* <!-- KatyaMills__biography start --> */
 
-	  .biography {
-	}
 	.katya__mills__description {
 		display: contents;
 	}
@@ -806,7 +796,7 @@ a.creativity, a.website, a.creativity2 {
 		top: -10px;
 		width: 90px;
 	}
-	.designers {
+	.card {
 		display: grid;
 		gap: 2%;
 		grid-template-columns: 320px 320px 320px;
@@ -936,10 +926,6 @@ a.creativity, a.website, a.creativity2 {
 
 	/* <!-- Strongpoints start --> */
 
-	.section__strongpoints {
-	}
-	.conteiner__management {
-	}
 	.strongpoints__heading__section {
 		display: flex;
     	align-items: center;
@@ -961,8 +947,7 @@ a.creativity, a.website, a.creativity2 {
 		gap: 20px;
 		justify-content: space-between;
 	}
-	.strongpoints__flex {
-	}
+
 	.img__1 {
 		order: 2;
 	}
@@ -998,20 +983,10 @@ a.creativity, a.website, a.creativity2 {
 
 	/* animation start */
 
-	.footer {
-	}
-	.footer-dropdown {
-	}
 	.footer__list {
 		display: flex;
 		justify-content: space-around;
 		width: 22.7em;
-	}
-	.footer__item__b {
-	}
-	.footer__item__d {
-	}
-	.footer__item__t {
 	}
 	
 	a {
@@ -1025,18 +1000,6 @@ a.creativity, a.website, a.creativity2 {
 		position: relative;
 	}
 
-
-	.footer__item__s a::before {
-		/* content: "";
-		bottom: 0;
-		left: 0;
-		position: absolute;
-		width: 0;
-		width: 0;
-		height: 2px;
-		background-color: #000;
-		transition: 1s; */
-	}
 	.footer-dropdown a:hover:before {
 		width: 100%;
 	}
