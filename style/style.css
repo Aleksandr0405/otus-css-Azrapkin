@@ -424,7 +424,7 @@ html{
 	transform: rotate(-90deg);
 }
 
-a.creativity, a.website, a.creativity2 {
+a.website {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
@@ -432,7 +432,6 @@ a.creativity, a.website, a.creativity2 {
 	line-height: 1.2;
 	text-decoration: none;
 	color: #000000;
-	
 }
 
 .link__container a:hover {
@@ -477,8 +476,9 @@ a.creativity, a.website, a.creativity2 {
 	justify-content: center;
 	transform: rotate(-90deg);
 	top: 8.9em;
-    left: -28.2em;
+    left: 7em;
 	padding-top: 135px;
+	width: 150px;
 }
 
 .strengths__title {
@@ -705,7 +705,7 @@ a.creativity, a.website, a.creativity2 {
 		font-family: Roboto;
 		font-weight: 700;
 		transform: rotate(0deg);
-		left: 280px;
+		left: 335px;
 		top: -325px;
 
 	}
@@ -876,7 +876,7 @@ a.creativity, a.website, a.creativity2 {
 		top: -50px;
 		left: 16px;
 	}
-	a.creativity, a.website, a.creativity2 {
+	a.website {
     	font-size: 3.3vw;
     	line-height: 1.2;
 	}
@@ -973,7 +973,7 @@ a.creativity, a.website, a.creativity2 {
 	.footer__list {
 		display: flex;
 		justify-content: space-around;
-		width: 22.7em;
+		width: 100%;
 	}
 	
 	a {
