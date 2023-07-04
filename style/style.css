@@ -923,8 +923,9 @@ a.creativity, a.website, a.creativity2 {
     	max-width: 116px;
 	}
 	.strengths__title {
-		font-size: 4.5vw;
-		top: -4px;
+		font-size: 4.2vw;
+		top: 6px;
+		left: 65px;
 	}
 	.strongpoints__grid {
 		display: flex;
