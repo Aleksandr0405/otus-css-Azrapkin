@@ -203,9 +203,9 @@ html{
 
 /* <!-- Hero end --> */
 
-/* KatyaMills__biography start */
+/* biography__Katya-Mills start */
 
-.katya__mills__description {
+.description__katya-mills {
 	padding-top: 135px;
 	display: flex;
 	justify-content: center;
@@ -235,7 +235,7 @@ html{
 }
 
 
-.katya__mills__subtitle {
+.subtitle__katya-mills {
 	display: flex;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -251,7 +251,7 @@ html{
 	color:#000000;
 }
 
-.katya__mills__description__text {
+.description__text__katya-mills {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -259,7 +259,7 @@ html{
 	position: relative;
 }
 
-.title__Katya__mills {
+.title__Katya-mills {
 	display: flex;
 	font-size: 5rem;
 	line-height: 115px;
@@ -267,7 +267,7 @@ html{
 	max-width: 300px;
 }
 
-.katya__mills__direction {
+.direction__katya-mills {
 	display: flex;
 	font-family: 'Roboto';
 	font-style: normal;
@@ -279,7 +279,7 @@ html{
 	color: #0D0D0D;
 }
 
-.katya__mills__quote {
+.quote__katya-mills {
 	display: flex;
 	font-family: 'Bitter';
 	font-style: normal;
@@ -289,7 +289,7 @@ html{
 	color: #0D0D0D;
 }
 
-.katya__mills__quote::before {
+.quote__katya-mills::before {
 	content:"-";
 	position: relative;
 	width: 0;
@@ -297,6 +297,9 @@ html{
 	bottom: 38px;
 	font-size: 50px;
 }
+
+/* biography__Katya-Mills end */
+/* Designers start */
 
 .section__card__designers {
 	margin-top: 8%;
@@ -372,32 +375,27 @@ html{
 /* Designers end */
 /* Testimonials start */
 
-.testimonials{
-	padding-top: 206px;
+.heading__testimonials{
+	padding-top: 10%;
+	padding-bottom: 2%;
 	display: flex;
 	align-items: center;
 	position: relative;
 	justify-content: center;
-	left: -26.6em;
+	/* left: -26.6em; */
+	left: 2%;
+	width: 90%;
 }
 
 .section__testimonials {
 	justify-content: center;
 }
 
-.testimonials{
-	padding-top: 10%;
-	padding-bottom: 2%;
-	position: relative;
-	left: 2%;
-	width: 90%;
-}
-
 .text__testimonials {
 	font-family: 'Roboto';
 	font-style: normal;
 	font-weight: 700;
-	font-size: 2vw;
+	font-size: 1.5vw;
 	line-height: 1.2;
 	position: absolute;
 	left: 13%;
@@ -443,7 +441,7 @@ a.website {
 	height: auto;
 }
 
-.testimonials__quote {
+.quote__testimonials {
 	font-family: 'Bitter';
 	font-style: normal;
 	font-weight: 400;
@@ -466,10 +464,9 @@ a.website {
 }
 
 /* Testimonials end */
-
 /* Strongpoints start */
 
-.strongpoints__heading__section {
+.section__strongpoints__heading {
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -481,7 +478,7 @@ a.website {
 	width: 150px;
 }
 
-.strengths__title {
+.title__strengths {
 	display: flex;
 	position: relative;
 	top: 135px;
@@ -502,7 +499,7 @@ a.website {
 /* ------------------- fallbacks ----------- */
 
 @supports (display: grid) {
-	.strongpoints__grid	{
+	.grid__strongpoints	{
 		display: grid;
 		justify-content: center;
 		grid-template-columns: repeat( 4, 3fr);
@@ -521,7 +518,7 @@ a.website {
 
 /* ------------------- fallbacks ----------- */
 
-.strongpoints__flex {
+.flex__strongpoints {
 	overflow-x: auto;
 	display: flex;
 	flex-wrap: nowrap;
@@ -535,7 +532,7 @@ a.website {
 	margin-right: 0;
 }
 
-.strengths {
+.text__strengths {
 	font-size: 86px;
 	line-height: 115px;
 	margin: 0px 0 35px;
@@ -561,29 +558,29 @@ a.website {
 	display: none;
 }
 
-/* ПЛАНШЕТ */
+/* ПЛАНШЕТ начало*/
 
 @media (min-width: 768px /*минимальная ширина экрана для смартфона*/ ) and (max-width: 1024px /*максимальная ширина экрана для планшета*/) {
-	.title__Katya__mills {
+	.title__Katya-mills {
 		font-size: 3rem;
 		flex-direction: column-reverse;
 	}
 
-	.katya__mills__direction {
+	.direction__katya-mills {
 		font-size: 16px;
 	}
 	
-	.katya__mills__quote {
+	.quote__katya-mills {
 		font-size: 19px;
 		line-height: 28px;
 	}
 	.img__katya__mills {
 		padding-left: 5px;
 	}
-	.katya__mills__subtitle {
+	.subtitle__katya-mills {
 		font-size: 1.50vw;
 	}
-	.katya__mills__description__text{
+	.description__text__katya-mills{
 		right: 40px;
 	}
 
@@ -601,7 +598,7 @@ a.website {
 
 	}
 
-	.strongpoints__heading__section {
+	.section__strongpoints__heading {
 		display: flex;
 		align-items: center;
 		position: relative;
@@ -609,10 +606,18 @@ a.website {
 		transform: rotate(-90deg);
 		top: 8.9em;
 		left: -28.2em;
-		/* height: 25px; */
 	}
 
+	.title__strengths {
+		display: flex;
+		font-size: 2.5vw;
+		top: 709px;
+		left: 7px;
+	}
 }
+
+/* ПЛАНШЕТ конец*/
+/* ТЕЛЕФОН начало*/
 
 @media (max-width: 767px /*максимальный размер для телефонов*/ ) {
 	.headings {
@@ -688,7 +693,7 @@ a.website {
 	
 	/* <!-- KatyaMills__biography start --> */
 
-	.katya__mills__description {
+	.description__katya-mills {
 		display: contents;
 	}
 	.img__katya__mills {
@@ -698,7 +703,7 @@ a.website {
 		height: 400px;
 		top: 500px;
 	}
-	.katya__mills__subtitle {
+	.subtitle__katya-mills {
 		position: relative;
 		color: #000;
 		font-size: 18px;
@@ -709,10 +714,10 @@ a.website {
 		top: -325px;
 
 	}
-	.katya__mills__description__text {
+	.description__text__katya-mills {
 		display: contents;
 	}
-	.title__Katya__mills {
+	.title__Katya-mills {
 		display: block;
 		position: relative;
 		font-size: 3rem;
@@ -721,11 +726,11 @@ a.website {
 		left: 16px;
 	}
 
-	.title__Katya__mills::before {
+	.title__Katya-mills::before {
 		content: "-";
 	}
 
-	.katya__mills__direction {
+	.direction__katya-mills {
 		justify-content: flex-start;
 		position: relative;
 		font-size: 16px;
@@ -754,7 +759,7 @@ a.website {
         content: "-"
     }
 
-	.katya__mills__quote {
+	.quote__katya-mills {
 		justify-content: flex-start;
 		position: relative;
 		display: flex;
@@ -766,11 +771,11 @@ a.website {
 
 	}
 
-	.katya__mills__quote::before {
+	.quote__katya-mills::before {
 		display: none;
 	}
+
 	/* <!-- KatyaMills__biography end --> */
-	
 	/* <!-- Designers start --> */
 
 	.container__text__designers {
@@ -822,10 +827,10 @@ a.website {
 	}
 
 	/* <!-- Designers end --> */
-
 	/* <!-- Testimonials start --> */
 
-	.testimonials {
+	.heading__testimonials {
+		position: relative;
 		padding-top: 80px;
 		display: flex;
 		align-items: center;
@@ -839,15 +844,11 @@ a.website {
 		justify-content: center;
 	}
 	
-	.testimonials{
-		position: relative;
-	}
-	
 	.text__testimonials {
 		font-size: 5vw;
 		line-height: 1.2;
 		position: absolute;
-		left: 13%;
+		left: 18px;
 	}
 
 	.wrapper__testimonials {
@@ -880,7 +881,7 @@ a.website {
     	font-size: 3.3vw;
     	line-height: 1.2;
 	}
-	.testimonials__quote {
+	.quote__testimonials {
 		order: 1;
 		grid-column: 1;
   		grid-row: 1;
@@ -888,7 +889,7 @@ a.website {
 	.img__testimonials {
 		display: none;
 	}
-	.testimonials__quote {
+	.quote__testimonials {
 		grid-column: 1 / 2;
 		font-size: 6vw;
 	}
@@ -908,10 +909,9 @@ a.website {
 	}
 
     /* <!-- Testimonials end --> */
-
 	/* <!-- Strongpoints start --> */
 
-	.strongpoints__heading__section {
+	.section__strongpoints__heading {
 		display: flex;
     	align-items: center;
     	position: relative;
@@ -922,12 +922,14 @@ a.website {
     	max-height: 139px;
     	max-width: 116px;
 	}
-	.strengths__title {
+
+	.title__strengths {
 		font-size: 4.2vw;
 		top: 6px;
 		left: 65px;
 	}
-	.strongpoints__grid {
+	
+	.grid__strongpoints {
 		display: flex;
     	overflow-x: auto;
 		margin-top: -40px;
@@ -938,25 +940,28 @@ a.website {
 	.img__1 {
 		order: 2;
 	}
-	.strengths__list {
+
+	.list__strengths {
 		order: 1;
+		left: 15px;
 	}
+
 	.img__3 {
 		order: 3;
 	}
+
 	.img__strongpoints_2 {
 		display: none;
 	}
-	.strengths__list {
-		left: 15px;
-	}
-	.strengths {
+
+	.text__strengths {
 		display: flex;
 		font-size: 13vw;
 		line-height: 115px;
 		margin: 0px 0 ;
 		left: 60px;
 	}
+
 	.tex__boxes {
     	font-size: 24px;;
     	line-height: 40px;
@@ -967,6 +972,8 @@ a.website {
 	}
 	
 	/* <!-- Strongpoints end --> */
+
+	/* ТЕЛЕФОН конец*/
 
 	/* animation start */
 
