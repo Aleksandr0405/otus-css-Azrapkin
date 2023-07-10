@@ -672,6 +672,7 @@ a.website {
 		display: flex;
 		justify-content: center;
 	}
+
 	.header__menu img {
 		display: none;
 	}
@@ -697,6 +698,7 @@ a.website {
 	.description__katya-mills {
 		display: contents;
 	}
+
 	.img__katya__mills {
 		position: relative;
 		max-width: 767px;
@@ -704,6 +706,7 @@ a.website {
 		height: 400px;
 		top: 500px;
 	}
+
 	.subtitle__katya-mills {
 		position: relative;
 		color: #000;
@@ -711,13 +714,14 @@ a.website {
 		font-family: Roboto;
 		font-weight: 700;
 		transform: rotate(0deg);
-		left: 308px;
+		left: 290px;
 		top: -325px;
-
 	}
+
 	.description__text__katya-mills {
 		display: contents;
 	}
+
 	.title__Katya-mills {
 		display: block;
 		position: relative;
@@ -927,7 +931,7 @@ a.website {
 	.title__strengths {
 		font-size: 4.2vw;
 		top: 6px;
-		left: 33px;
+		left: 27px;
 	}
 	
 	.grid__strongpoints {
