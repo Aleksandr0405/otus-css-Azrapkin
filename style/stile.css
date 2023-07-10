@@ -1,0 +1,363 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* roboto-regular - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-500 - latin */
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v30-latin-500.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  
+@font-face {
+	font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+		 url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+html{
+	box-sizing: border-box;
+}
+
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+
+ /* Header start */
+
+ .header {
+	text-align: center;
+	position: relative;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	margin: 0 auto;
+	max-width: 800px;
+ }
+
+  .header__menu {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+
+ }
+
+ .header-dropdown {
+	position: absolute;
+	background-color: transparent;
+	z-index: 50;
+	left: 30%;
+	right: 20%;
+	display: none;
+	
+ }
+
+ .header-dropdown a {
+	text-decoration: none;
+	font-family: 'Playfair Display';
+	font-style: normal;
+	color: #000000;
+	font-size: 40px;
+	line-height: 48px;
+ }
+
+ .header-dropdown a:hover {
+	background-color: #ccc;
+ }
+
+ .header__list {
+	display: flex;
+	flex-wrap: wrap;
+ }
+
+ .header__item {
+	margin-right: 70px;
+ }
+
+ .header__item:last-child {
+	margin-right: 0;
+ }
+
+ .header:hover .header-dropdown {
+	display: block;
+ }
+ 
+.wrapper {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.hero {
+	background-image: url(../images/intro.jpg);
+	max-width: 75%;
+	Height: 630px;
+	margin: 0 auto;
+	position: relative;
+	
+}
+
+.hero-box {
+	background-color: white;
+	width: 56%;
+	height: 57%;	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	padding-top: 110px;
+	
+}
+
+  .intro__title {
+    font-family: 'Playfair Display';
+	font-style: normal;
+    font-weight: 500;
+    font-size: 86px;
+    line-height: 120%;
+	padding-bottom: 14px;
+	
+	
+    /* or 103px */
+}
+.intro__subtitle {
+    font-family: 'Roboto';
+	font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+/* Header end */
+/* KatyaMills start */
+
+.img__KatyaMills{
+	width: 553px;
+	height: 840px;
+}
+
+.KatyaMills__title {
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 86px;
+	line-height: 115px;
+}
+.KatyaMills__direction {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+}
+.KatyaMills__quote {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 26px;
+	line-height: 31px;
+}
+.KatyaMills__Biography {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+/* KatyaMills end */
+/* Designers start */
+
+.img__JESSWONDER {
+	width: 635.48px;
+	height: 538px;
+}
+
+.JESSWONDER {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+
+.Designers__Designers {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+	/* identical to box height */
+}
+
+.img__KAMERONCLEIN {
+	width: 319.02px;
+	height: 439.46px;
+}
+
+.KAMERONCLEIN {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+
+.img__LOUISSERED {
+	width: 320px;
+	height: 439.46px;
+}
+
+.LOUISSERED {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: uppercase;
+}
+
+/* Designers end */
+/* Testimonials start */
+
+.img__Testimonials {
+	width: 515px;
+	height: 757px;
+}
+
+.Testimonials {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 23px;
+}
+
+.img__Testimonials__quote {
+	width: 221px;
+	height: 333px;
+}
+
+.Testimonials__quote {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+}
+.Creativity {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+.Website {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 19px;
+	text-transform: capitalize;
+}
+
+/* Testimonials end */
+/* Strongpoints start */
+
+.img__Strongpoints_1 {
+	width: 350px;
+	height: 525px;
+}
+
+.img__Strongpoints_2 {
+	width: 351px;
+	height: 525px;
+}
+
+.img__Strongpoints_3 {
+	width: 351px;
+	height: 525px;
+}
+
+.Strengths{
+	font-family: 'Playfair Display';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 86px;
+	line-height: 115px;
+/* identical to box height */
+}
+.Strengths__list {
+	font-family: 'Bitter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 34px;
+	line-height: 41px;
+}
+
+/* Strongpoints end */
