@@ -172,11 +172,11 @@ html{
 	position: relative;
 }
 
-.hero-box img{
+.hero__box img{
 	display: none;
 }
 
-.hero-box {
+.hero__box {
 	background-color: white;
 	width: 56%;
 	height: 57%;	
@@ -211,7 +211,7 @@ html{
 	justify-content: center;
 }
 
-.img__katya__mills {
+.img__katya-mills {
 	width: 	45%;
 	height: 45%;
 	max-width: 80%;
@@ -251,7 +251,7 @@ html{
 	color:#000000;
 }
 
-.description__text__katya-mills {
+.description__text_katya-mills {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
@@ -301,11 +301,11 @@ html{
 /* biography__Katya-Mills end */
 /* Designers start */
 
-.section__card__designers {
+.section__card_designers {
 	margin-top: 8%;
 }
 
-.container__text__designers {
+.container__text_designers {
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -333,14 +333,14 @@ html{
 	justify-content: center;
 }
 
-.card__first__image {
+.card__first_image {
 	width: 100%;
 	height: auto;
 	max-width: 670px;
 	transition: all 0.3s linear;
 	cursor: pointer;
 }
-.card__first__image:hover, .card__image:hover {
+.card__first_image:hover, .card__image:hover {
 	transform: scale(1.1);
 }
 
@@ -457,7 +457,7 @@ a.website {
 	padding-bottom: 15%;
 }
 
-.img__testimonials__quote {
+.img__quote_testimonials {
 	width: 	100%;
 	height: auto;
 	position: relative;
@@ -466,7 +466,7 @@ a.website {
 /* Testimonials end */
 /* Strongpoints start */
 
-.section__strongpoints__heading {
+.section__heading_strongpoints {
 	display: flex;
 	align-items: center;
 	position: relative;
@@ -575,13 +575,13 @@ a.website {
 		font-size: 19px;
 		line-height: 28px;
 	}
-	.img__katya__mills {
+	.img__katya-mills {
 		padding-left: 5px;
 	}
 	.subtitle__katya-mills {
 		font-size: 1.50vw;
 	}
-	.description__text__katya-mills{
+	.description__text_katya-mills{
 		right: 40px;
 	}
 
@@ -599,7 +599,7 @@ a.website {
 
 	}
 
-	.section__strongpoints__heading {
+	.section__heading_strongpoints {
 		display: flex;
 		align-items: center;
 		position: relative;
@@ -632,7 +632,7 @@ a.website {
 		margin-top: 345px;
 	}
 	
-	.hero-box img{
+	.hero__box img{
 		display: contents;
 		position: relative;
 		max-width: 767px;
@@ -641,7 +641,7 @@ a.website {
 		margin-top: 345px;
 	}
 	
-	.hero-box {
+	.hero__box {
 		position: relative;
 		top: -54%;
 		transform: translate(-50%, -50%);
@@ -699,7 +699,7 @@ a.website {
 		display: contents;
 	}
 
-	.img__katya__mills {
+	.img__katya-mills {
 		position: relative;
 		max-width: 767px;
 		width: 100%;
@@ -718,7 +718,7 @@ a.website {
 		top: -325px;
 	}
 
-	.description__text__katya-mills {
+	.description__text_katya-mills {
 		display: contents;
 	}
 
@@ -783,7 +783,7 @@ a.website {
 	/* <!-- KatyaMills__biography end --> */
 	/* <!-- Designers start --> */
 
-	.container__text__designers {
+	.container__text_designers {
 		display: contents;
 	}
 
@@ -807,7 +807,7 @@ a.website {
 		margin-left: 10px;
 	}
 
-	.card__first__image {
+	.card__first_image {
 		width: 100%;
 		height: 350px;
 	}
@@ -908,7 +908,7 @@ a.website {
 		margin: 0;
 		width: 100%;
 	}
-	.img__testimonials__quote {
+	.img__quote_testimonials {
 		width: 100%;
     	height: 345px;
 	}
@@ -916,7 +916,7 @@ a.website {
     /* <!-- Testimonials end --> */
 	/* <!-- Strongpoints start --> */
 
-	.section__strongpoints__heading {
+	.section__heading_strongpoints {
 		display: flex;
     	align-items: center;
     	position: relative;
